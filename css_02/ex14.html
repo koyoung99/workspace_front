@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>float예제</title>
+        <style>
+            /* li{
+                border: 1px solid black; 
+                list-style-type: none;
+               width: 100px;
+               height: 30px;
+               margin-right: 20px;
+               
+                float: left;
+                border: 2px solid black;
+            }
+            li::before{
+                content: url("img/star.jpg");
+            }
+
+            li::after{
+                margin-left: 20px;
+            } */
+
+            ol>li{
+                margin-right: 20px;
+                padding-left: 10px;
+                padding-right: 20px;
+                list-style: none;
+
+                background: white url("img/star.jpg") no-repeat scroll left center;
+                background-size: 11px 11px;
+                border-right: 2px solid black;
+                float:left;
+                
+            }
+            ol>li:last-child{
+                border-right: none;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li>메뉴5</li>
+        </ol>
+        
+    </body>
+</html>
