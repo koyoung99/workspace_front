@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+html{
+    font-family: "맑은 고딕";
+    font-size: 17px;
+}
+
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+h1{
+    font-family: 궁서;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+.internet01{
+    font-style: italic;
+    font-weight: bold;
+    color: #0000ff;
+}
+.infor{
+    font-style: italic;
+    font-weight: bold;
+    color: #FF0000;
+}
+.green{
+    text-decoration: underline;
+    color: #00ff00;
+}
+.milnet{
+    font-weight: bold;
+    color: #ff0000;
+}
+.num{
+    text-decoration: underline;
+}
+.box01{
+    background-color: #d9d9d9;
+}
+.box01>p{
+    text-indent: 30px;
+}
+.num2{
+    font-weight: bold;
+    color: #00ff00;
+}
+.num3{
+    font-style: italic;
+    color: #0000ff;
+}
+.num4{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+ul>li, ol>ul>li{
+    list-style-type: square;
+}
+ol{
+    list-style-type: none;
+}
+thead{
+    background-color: #c8ebfa;
+}
+tbody>tr:hover{
+    background-color: #edd3ed;
+}
+td:last-child{
+    text-align: right;
+}
+td:last-child::before{
+    content: "약 ";
+}
+td:last-child::after{
+    content: "(MB/초)";
+}
+td>a:link{
+    color: #000000;
+    text-decoration: none;
+}
+td>a:visited{
+    color: #000000;
+}
+td>a:hover{
+    color:#0000ff;
+    text-decoration: underline;
+}td>a:active{
+    color: #0000ff;
+    text-decoration: underline;
+}

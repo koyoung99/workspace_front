@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+    <body>
+        <p>목차</p>
+        <ol>
+            <li><a href="ex01.html">h1~h6 태그</a></li>
+        <li><a href="ex02.html">br hr blockquote q strong em 태그</a></li>
+        <li><a href="ex03.html">ol ul 리스트</a></li>
+        <li><a href="ex04.html">img a 태그</a></li>
+        <li><a href="ex05.html">talbe tr td 태그</a></li>
+        <li><a href="ex06.html">[테이블 합치기 연습문제1]</a></li>
+        <li><a href="ex07.html">테이블 thead tbody tfoot 태그</a></li>
+        <li><a href="ex08.html">[테이블 합치기 연습문제2]</a></li>
+        <li><a href="ex09.html">form 태그</a></li>
+        </ol>
+
+
+
+
+        <hr>
+        <h1> html태그 </h1>
+        <h2> 5. talbe tr td 태그 </h2>
+
+        <h3>table 기본</h3>
+        <table border="2">
+            <tr>
+                <td>(1,1)</td>
+                <td>(1,2)</td>
+                <td>(1,3)</td>
+            </tr>
+            <tr>
+                <td>(2,1)</td>
+                <td>(2,2)</td>
+                <td>(2,3)</td>
+            </tr>
+            <tr>
+                <td>(3,1)</td>
+                <td>(3,2)</td>
+                <td>(3,3)</td>
+            </tr>
+        </table>
+        
+        <h3>가로 (2,2) (2,3) 합치기 </h3>
+        <table border="2">
+            <tr>
+                <td>(1,1)</td>
+                <td>(1,2)</td>
+                <td>(1,3)</td>
+            </tr>
+            <tr>
+                <td>(2,1)</td>
+                <td colspan="2">(2,2)</td>
+            </tr>
+            <tr>
+                <td>(3,1)</td>
+                <td>(3,2)</td>
+                <td>(3,3)</td>
+            </tr>
+        </table>
+
+
+        <h3>세로 (2,1) (3,1) 합치기 </h3>
+        <table border="2">
+            <tr>
+                <td>(1,1)</td>
+                <td>(1,2)</td>
+                <td>(1,3)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">(2,1)</td>
+                <td>(2,2)</td>
+                <td>(2,3)</td>
+            </tr>
+            <tr>
+                <td>(3,2)</td>
+                <td>(3,3)</td>
+            </tr>
+        </table>
+        
+        <h3> 가로 세로 (2,1) (2,2) (2,3) (3,1) 합치기 </h3>
+            <table border="2">
+                <tr>
+                    <td>(1,1)</td>
+                    <td>(1,2)</td>
+                    <td>(1,3)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">(2,1)</td>
+                    <td colspan="2">(2,2)</td>
+                </tr>
+                <tr>
+                    <td>(3,2)</td>
+                    <td>(3,3)</td>
+                </tr>
+
+    </body>
+
+</html>
