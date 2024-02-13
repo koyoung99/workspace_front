@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body, div, dl, dt, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px; 
+}
+body{
+    background-color: #808080;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+}
+/* 폼가로 */
+.content{
+    width: 600px;
+    background-color: white;
+}
+
+/* 선 */
+.form-group{
+    border-bottom: 1px solid #808080;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* 폼타이틀 */
+.form-text {
+    display: inline-block;
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+/* input select textarea 폰트크기 */
+input, select, textarea{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+    
+}
+
+/* radio, check label설정 */
+.form-fs{
+    font-family: "맑은고딕";
+    font-size: 15px;
+   
+}
+input[type="text"], input[type="password"]{
+    width: 200px;
+}
+/* 제목 */
+.content h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.address-detail{
+    margin-top: 5px;
+}
+
+.address-detail>label{
+    background-color: red;
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+/* 자기소개 */
+textarea{
+    width: 400px;
+    height: 80px;
+}
+.self{
+    vertical-align: top;
+}
+
+/* 버튼영역 */
+.form-btn{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.form-btn button {
+    padding: 10px 0px 10px 0px;
+    width: 120px;
+       
+}
+
+
+/* 메뉴 */
+ol{
+    list-style: none;
+    padding-bottom: 20px;
+}
+ol>li{
+    float: left;
+}
+ol>li::after{
+    content: ">";
+}
+.clearfix::before, .clearfix:after {
+    display: block; content: ""; line-height: 0;
+}
+    .clearfix:after {
+        clear: both;
+    }
+ol>li:last-child::after{
+    content: none;
+}
+
+

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body, div, dl, dt, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px; 
+}
+body{
+    background-color: #808080;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+}
+
+#content{
+    width: 700px;
+    background-color: white;
+}
+
+#content ol{
+    list-style: none;
+    padding-bottom: 20px;
+}
+#content ol>li{
+    float: left;
+}
+#content ol>li::after{
+    content: ">";
+}
+.clearfix::before, .clearfix:after {
+    display: block; content: ""; line-height: 0;
+}
+    .clearfix:after {
+        clear: both;
+    }
+#content ol>li:last-child::after{
+    content: none;
+}
+
+
+/* 제목 */
+#content h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 공개범위 */
+#content .form-text{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+
+/* 게시판선택 */
+#content .form-group #sel-board{
+    width: 200px;
+}
+
+/* 제목 */
+#content .form-group #text-title{
+    display: inline-block;
+    width: 600px;
+}
+
+/* 비밀번호 */
+#content .form-group #text-pw{
+    width:195px;
+}
+
+/* • 폼위아래 간격 10px */
+#content .form-group{
+    margin-bottom:10px;
+}
+
+/* input 선택 간격 */
+#content input[type="radio"], input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+/* 내용 */
+#content textarea{
+    width: 683px;
+    height: 100px;
+}
+
+/* 버튼 */
+#content .btn-area{
+    padding: 20px 0px 20px 0px;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+#content .btn-area button{
+    width: 60px;
+    height: 30px;
+}

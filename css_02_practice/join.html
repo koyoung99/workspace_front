@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <link rel="stylesheet" href="join.css">
+    </head>
+
+    <body>
+        <div class="content">
+            <h3>회원가입</h3>
+            <div class="clearfix">
+                <ol>
+                    <li>홈</li>
+                    <li>유저</li>
+                    <li>회원가입</li>
+                </ol>
+            </div>
+            <!-- 아이디 -->
+            <div class="form-group">
+                <label class="form-text" for="form-id">아이디</label>
+                <input id="form-id"type="text" placeholder="아이디를 입력하세요">
+            </div>
+
+            <!-- 패스워드 -->
+            <div class="form-group">
+                <label class="form-text" for="form-pw">패스워드</label>
+                <input id="form-pw"type="password" placeholder="패스워드를 입력하세요">
+            </div>
+
+            <!-- 이름 -->
+            <div class="form-group">
+                <label class="form-text" for="form-name">이름</label>
+                <input id="form-name"  type="text" placeholder="이름을 입력하세요">
+            </div>
+
+            <!-- 프로필사진 -->
+            <div class="form-group">
+            <label class="form-text" for="form-profile">프로필사진</label>
+            <input id="form-profile" type="file">
+            </div>
+
+            <!-- 주소 -->
+            <div class="form-group"> 
+                
+                <label class="form-text" for="address-find">주소</label>
+                
+                <input type="text" value="주소벨류"> 
+                <button id="address-find">우편번호찾기</button>
+                <div class="address-detail">
+                    <label class="form-text">주소</label>
+                    <input  type="text" value="주소벨류">
+                </div>
+            </div>
+
+            <!-- 이동통신사 -->
+            <div class="form-group">
+                <label class="form-text" for="form-phone">이동통신사</label>
+                <select id="form-phone">
+                    <option>선택해주세요</option>
+                    <option>SKT</option>
+                    <option>KT</option>
+                    <option>LG</option>
+                    <option>기타</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-text">나이</label>
+                <label class="form-fs" for="ten">10대</label>
+                <input id="ten"type="radio" name="age" checked="checked">
+                <label class="form-fs" for="twenty">20대</label>
+                <input id="twenty"type="radio" name="age">
+                <label class="form-fs" for="thirty">30대</label>
+                <input id="thirty"type="radio" name="age">
+                <label class="form-fs" for="fourty">40대</label>
+                <input id="fourty"type="radio" name="age">
+                <label class="form-fs" for="etc">기타</label>
+                <input id="etc"type="radio" name="age">
+            </div>
+            <div class="form-group">
+                <label class="form-text">혈액형</label>
+                <label  class="form-fs" for="A">A형</label>
+                <input id="A"type="radio" name="boold-type" checked="checked">
+                <label  class="form-fs" for="B">B형</label>
+                <input id="B"type="radio" name="boold-type">
+                <label class="form-fs" for="O">O형</label>
+                <input id="O"type="radio" name="boold-type">
+                <label class="form-fs" for="AB">AB형</label>
+                <input id="AB"type="radio" name="boold-type">
+            </div>
+            <div class="form-group">
+                <label class="form-text">취미</label>
+                <label class="form-fs">독서</label>
+                <input type="checkbox" checked="checked">
+                <label class="form-fs">음악</label>
+                <input type="checkbox">
+                <label class="form-fs">여행</label>
+                <input type="checkbox">
+                <label class="form-fs">영화</label>
+                <input type="checkbox">
+                <label class="form-fs">코딩</label>
+                <input type="checkbox">
+                <label class="form-fs">기타</label>
+                <input type="checkbox">
+            </div>
+            <div class="form-group">
+                <label class="form-text self" for="form-self">자기소개</label>
+                <textarea id="form-self"></textarea>
+            </div>
+            <div class="form-btn">
+                <button>등 록</button>
+                <button>초기화</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>
