@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+/* clearfix */
+.clearfix:before, .clearfix:after {
+    display: block; 
+    content: ""; 
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+
+div{
+    border:1px solid black;
+}
+
+
+#subMenu{
+    float: left;
+}
+#main{
+    float: left;
+}
+
+
