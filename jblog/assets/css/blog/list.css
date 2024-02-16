@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* ul li 리스트 */
+ul, ol {list-style-type: none;}
+
+
+
+#contents2 #aside{
+    width: 180px;
+    margin-top: 10px;
+    float: left;
+    
+}
+
+
+
+
+#hello{
+    width: 160px;
+    border: 1px solid #dddddd;
+}
+
+#hello img{
+    width: 154px;
+    margin-left: 3px;
+}
+#hello p{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+
+#category {
+    width: 160px;
+    margin-top: 5px;
+    border: 1px solid #dddddd;
+}
+#category p{
+    margin:5px 0px 10px 5px;
+    font-weight: bolder;
+}
+
+#category ul>li{
+    margin: 5px 0px 5px 15px;
+}
+#category ul>li:last-child{
+    margin-bottom: 20px;
+}
+#category ul>li::before{
+    content: "+ ";
+}
+
+
+
+
+
+
+
+
+
+#main h3{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+#main ul>li{
+    display: inline-block;
+    float: left;
+}
+#main ul>li:last-child{
+    float: right;
+    font-weight: bold;
+}
+
+#main p{
+    width: 700px;
+    display: inline-block;
+    background-color: blue;
+}
+
+
+
+
+

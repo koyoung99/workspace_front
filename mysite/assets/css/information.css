@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+#main h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#main ol{
+    float: right;
+}
+
+#main ol>li{
+    float: left;
+}
+
+#main ol>li::after{
+    content: ">";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main ol>li:last-child::after{
+    content: none;
+}
+#main .line{
+    margin-top: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/* contents */
+#contents{
+    width: 450px;
+    border: 1px solid #dddddd;
+    margin: 20px 0px 10px 150px;
+}
+
+#contents .line01, .line02, .line03, .line04, .line05{
+    
+    padding: 0px 0px 0px 10px;
+    text-align: right;
+}
+
+
+#contents .line01{
+    margin-left: 60px;
+}
+#contents .line02{
+    margin-left: 48px;
+}
+#contents .line03{
+    margin-left: 72px;
+}
+#contents .line04{
+    margin-left: 72px;
+}
+#contents .line05{
+    margin-left: 49px;
+}
+
+#contents .id-group{
+    margin-top: 20px;
+}
+
+#contents .id-group p{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+
+
+#contents .pw-group #pw{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#contents .name-group #name{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+#contents #sex-group-choice{
+    display: inline-block;
+    margin: 20px;
+}
+#contents #sex-group-choice #female{
+    margin-left: 10px;
+}
+
+
+#contents #memberedit{
+    margin: 40px 10px 0px 150px;
+   
+}
+
+#contents #memberedit button{
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+
+
+

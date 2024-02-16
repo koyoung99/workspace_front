@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+#main h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#main ol{
+    float: right;
+}
+
+#main ol>li{
+    float: left;
+}
+
+#main ol>li::after{
+    content: ">";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main ol>li:last-child::after{
+    content: none;
+}
+#main .line{
+    margin-top: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* contents */
+#contents{
+    width: 450px;
+    border: 1px solid #dddddd;
+    margin: 20px 0px 10px 150px;
+}
+
+#contents .line01, .line02{
+    
+    padding: 0px 0px 0px 10px;
+    text-align: right;
+}
+
+
+#contents .line01{
+    margin-left: 60px;
+}
+#contents .line02{
+    margin-left: 48px;
+}
+
+
+#contents .id-group{
+    margin-top: 20px;
+}
+
+#contents .id-group #id{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#contents .pw-group #pw{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+#contents #loginbtn{
+    margin: 40px 10px 0px 150px;
+   
+}
+
+#contents #loginbtn button{
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+    
+}
+
+

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+#main h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#main ol{
+    float: right;
+}
+
+#main ol>li{
+    float: left;
+}
+
+#main ol>li::after{
+    content: ">";
+}
+
+#main ol>li:last-child::after{
+    content: none;
+}
+#main .line{
+    margin-top: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#main .find{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+#main .find #infind{
+    margin-right: 3px;
+    padding: 7px 5px 4px 4px;
+    border:1px solid #dddddd;
+    border-radius: 5px;
+}
+
+#main .find #butfind{
+    margin: 3px 0px 3px 3px;
+    padding: 3px 2px 2px 3px;
+}
+
+
+table{
+    margin-top: 10px;
+    width: 820px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+table>thead>tr{
+    background-color: #dddddd;
+}
+
+table>thead>tr>th, table>tbody>tr>td{
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table>thead>tr>th{
+    font-weight: bold;
+}
+
+table>tbody>tr:hover{
+    background-color: #ffff00; 
+}
+
+.txt-left{text-align: left;}

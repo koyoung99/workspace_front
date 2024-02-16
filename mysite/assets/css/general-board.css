@@ -1,0 +1,110 @@
+@charset "UTF-8";
+#main h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#main ol{
+    float: right;
+}
+
+#main ol>li{
+    float: left;
+}
+
+#main ol>li::after{
+    content: ">";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main ol>li:last-child::after{
+    content: none;
+}
+#main .line{
+    margin-top: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+#main #box{
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+label{
+    display: inline-block;
+    width: 50px;
+    padding: 10px 6px 10px 3px;
+    border-right: 1px solid #dddddd;
+    font-weight: bolder
+}
+#pw-box>label{
+    padding-right: 15px;
+    ;
+}
+
+
+#main #name-box{
+    float: left;
+    width: 400px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#main #pw-box{
+    float: left;
+    
+    width: 400px;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+#main #name-box>input, #pw-box>input{
+    width:320px;
+    /* padding: 5px 4px 0px 0px; */
+    
+}
+#main #name-box>input{
+    padding: 5px 0px 3px 0px;
+    border: 1px solid gray;
+}
+#main #pw-box>input{
+    padding: 5px 0px 3px 0px;
+}
+
+#main #writer-box{
+    border-left:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+}
+
+#main textarea{
+    width: 800px;
+    height: 200px;
+    margin: 4px;
+}
+#main .btn{
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main button{
+    padding: 3px 40px 3px 40px;
+}
+
+table{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #dddddd;    
+    border-collapse: collapse;
+}
+table tr>td{
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+table tr>td:first-child{
+    width: 80px;
+}
+table tr>td:nth-child(2){
+    width: 250px;
+}
+table tr>td:last-child{
+    width: 50px;
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+#box{
+    margin-bottom: 20px;
+
+}
+
+#contents2 ol{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#contents2 ol>li{
+    float: left;
+    border: 1px solid #dddddd;
+    padding: 5px 30px 5px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+#contents2 ol>li:nth-child(2){
+    background-color: #dddddd;
+}
+
+
+table{
+    margin: 18px;
+    width: 96%;
+    border: 1px solid #dddddd;    
+    border-collapse: collapse;
+    font-size: 13px;
+}
+table td,th{
+    padding: 4px 4px 4px 6px;
+}
+table thead{
+    background: rgb(179, 176, 176);
+}
+
+table tr>td, tr>th{
+    border: 1px solid #dddddd;
+}
+table tr>td:first-child{
+    width: 40px;
+}
+table tr>td:nth-child(2){
+    width: 150px;
+}
+table tr>td:nth-child(3){
+    width: 80px;
+}
+table tr>td:last-child{
+    width: 40px;
+}
+
+
+
+#category .category01 label{
+    margin-right: 25px;   
+}
+#category .category02 label{
+    margin-right: 61px;   
+}
+
+#category input{
+    padding: 4px 450px 4px 2px;
+}
+
+#category .category01, #category .category02{
+
+    margin: 15px 0px  15px 2px;
+}
+#category {
+    width: 960px;
+    margin-left: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+#btn{
+    text-align: center;
+}
+#btn button{
+    margin: 8px 0px 30px 0px;
+    padding: 7px;
+}

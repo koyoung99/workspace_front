@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#wrap{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#nav ul{
+    display: inline-block;
+}
+#nav ul>li{
+    float: left;
+    margin: 10px 7px 20px 0px;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+
+#aside1 #titlefind, #aside1>label{
+    border: 2px solid blue;
+}
+#aside1 #titlefind{
+    width: 300px;
+    padding: 5px 5px 4px 0px;
+    
+}
+
+#aside1>label{
+    width: 100px;
+    padding: 4px 6px 4px 5px;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+}
+
+#aside2 #choice1, #choice2{
+    display: inline-block;
+    margin: 10px 5px auto;
+    font-size: 13px;
+}
+
+
+#footer{
+    margin-top: 500px;
+    margin-left: 20px;
+}
+
+
+#footer ul>li{
+    color: gray;
+    padding: 15px 40px ;
+    float: left;
+    font-size: 12px;
+    background-color: #eceaea;
+}
+
