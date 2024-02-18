@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#contents{
+    width: 380px;
+    border: 1px solid #c0c0c0;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 42%;
+}
+
+
+#contents .id-group{
+    margin: 20px auto auto 15px;
+}
+
+#contents .id-group label{
+    padding: 5px 22px 5px 10px;
+    /* background-color: blue; */
+}
+
+#contents .id-group #id {
+    width: 140px;
+    margin-left: 20px;
+    padding: 4px;
+    border: 1px solid #c0c0c0
+} 
+#contents .id-group button{
+    margin: 3px;
+    padding: 3px 12px 3px 12px;
+    font-size: 12px;
+    
+}
+#contents .id-group p{
+    padding-left: 90px;
+    padding-bottom: 5px ;
+}
+
+
+#contents .pw-group{
+    margin: 10px auto auto 15px;
+}
+#contents .pw-group label{
+    padding: 5px 10px 5px 10px;
+    /* background-color: blue; */
+}
+
+#contents .pw-group #pw {
+    width: 140px;
+    margin-left: 19px;
+    padding: 4px;
+    border: 1px solid #c0c0c0
+} 
+
+
+
+
+#contents .name-group{
+    margin: 10px auto auto 15px;
+}
+#contents .name-group label{
+    padding: 5px 10px 5px 10px;
+    /* background-color: blue; */
+}
+
+#contents .name-group #name {
+    width: 140px;
+    margin-left: 45px;
+    padding: 4px;
+    border: 1px solid #c0c0c0
+} 
+
+#contents #agreement{
+    width: 340px;
+    height: 40px;
+    margin: 10px auto auto 25px;
+    border-bottom: 1px solid #c0c0c0;
+
+
+}
+
+#contents #agreement #agree {
+    margin-left: 30px;
+    
+} 
+
+#contents #agreement p{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+
+
+#contents #joinbt{
+    margin: 10px 31px 25px 31px;
+   
+}
+
+#contents #joinbt button{
+    padding: 5px 130px 5px 130px;
+
+    
+}
+#footer{
+    margin-top: 50px;
+}
